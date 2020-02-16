@@ -1,4 +1,3 @@
 module.exports = function countCats(matrix) {
-  throw 'Not implemented';
-  return matrix.filter(el => el === '^^').length
+  return matrix.flat().filter(el => el === "^^").length;
 };
